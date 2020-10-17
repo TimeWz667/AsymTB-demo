@@ -1,10 +1,12 @@
 <template>
-  <b-container fluid>
+  <b-container>
     <b-nav tabs grow>
-      <b-nav-item to="/introduction">Introduction</b-nav-item>
-      <b-nav-item to="/methods">Methods</b-nav-item>
-      <b-nav-item to="/results">Results</b-nav-item>
-      <b-nav-item to="/keys">Take home message</b-nav-item>
+      <b-nav-item to="/keys">Key messages</b-nav-item>
+      <b-nav-item to="/asym">Asymptomatic TB</b-nav-item>
+      <b-nav-item to="/progression">TB progression</b-nav-item>
+      <b-nav-item to="/care">TB-related care-seeking</b-nav-item>
+      <b-nav-item to="/country">Country profiles</b-nav-item>
+      <b-nav-item to="/discussion">Discussion</b-nav-item>
       <b-nav-item to="/about">About</b-nav-item>
     </b-nav>
     <router-view></router-view>

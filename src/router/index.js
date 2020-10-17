@@ -11,12 +11,37 @@ const routes = [
     path: "/",
     name: "Home",
     component: Layout,
-    redirect: { name: "Upcoming" },
+    //redirect: { name: "Upcoming" },
     children: [
       {
         path: "keys",
         name: "KeyMessage",
         component: () => import("@/views/Keys.vue")
+      },
+      {
+        path: "care",
+        name: "CareSeeking",
+        component: () => import("@/views/Care.vue")
+      },
+      {
+        path: "asym",
+        name: "AsymptomaticTB",
+        component: () => import("@/views/Asym.vue")
+      },
+      {
+        path: "progression",
+        name: "Progression",
+        component: () => import("@/views/Progression.vue")
+      },
+      {
+        path: "country",
+        name: "CountryProfiles",
+        component: () => import("@/views/Country.vue")
+      },
+      {
+        path: "discussion",
+        name: "Discussion",
+        component: () => import("@/views/Discussion.vue")
       },
       {
         path: "about",
