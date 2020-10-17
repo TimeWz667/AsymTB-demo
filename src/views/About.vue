@@ -6,9 +6,9 @@
           <h2>Research team</h2>
           <div v-for="author in authors" :key="author.Name">
             <h4>{{ author.Name }}</h4>
-            <ui v-if="author.Items.length > 0">
+            <ul v-if="author.Items.length > 0">
               <li v-for="(v, i) in author.Items" :key="i">{{ v }}</li>
-            </ui>
+            </ul>
           </div>
         </b-col>
         <b-col cols="6" md="6" style="border-left-style: solid; border-left-color: #b95893;">
