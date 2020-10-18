@@ -2,7 +2,7 @@
   <div class="asym">
     <b-container>
       <b-row>
-        <b-col cols="5">
+        <b-col md="5">
           <div class="card" style="width: 100%;">
 
             <div class="card-body">
@@ -21,8 +21,8 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="7">
-          <vueper-slides :touchable="false" :slide-ratio="1 / 1.4" bullets-outside>
+        <b-col md="7">
+          <vueper-slides :touchable="true" :slide-ratio="1 / 1.4" bullets-outside>
             <vueper-slide>
               <template v-slot:content>
                 <img src="@/assets/asym_sex.png" alt="asym_sex">
