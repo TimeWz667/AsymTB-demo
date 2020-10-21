@@ -36,7 +36,9 @@ const routes = [
       {
         path: "country",
         name: "CountryProfiles",
-        component: () => import("@/views/Country.vue")
+        //redirect: { name: "Upcoming" },
+        //component: () => import("@/views/Country.vue"),
+        component: () => import("@/views/Upcoming.vue")
       },
       {
         path: "discussion",

@@ -11,7 +11,7 @@
                 <li>the presence of care-seeking intentions</li>
                 <li>case-detection</li>
               </ul>
-              <p class="card-text">After considering asymptomatic TB and background deaths, our incidence estimates were higher than WHO estimates</p>
+<!--              <p class="card-text">After considering asymptomatic TB and background deaths, our incidence estimates were higher than WHO estimates</p>-->
               <p class="card-text">We also consider treatment outcomes after case-detection</p>
             </div>
             <br>
@@ -28,11 +28,11 @@
                 <img src="@/assets/care_TTE.png" alt="asym_TTE">
               </template>
             </vueper-slide>
-            <vueper-slide>
+            <!--<vueper-slide>
               <template v-slot:content>
                 <img src="@/assets/care_inc.png" alt="care_inc">
               </template>
-            </vueper-slide>
+            </vueper-slide>-->
             <vueper-slide>
               <template v-slot:content>
                 <img src="@/assets/care_MWI.png" alt="care_MWI">

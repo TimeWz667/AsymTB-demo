@@ -1,6 +1,7 @@
 <template>
   <div class="accordion" role="tablist">
     <h3>Questions</h3>
+    <h5>Please let me know if you have any questions (Chu-Chang Ku by c.ku@sheffield.ac.uk). <br>We will update the list daily during the Union conference as possible</h5>
     <b-card no-body class="mb-1" v-for="(qa, index) in items" :key="index">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button block v-b-toggle="'accordion-' + index" variant="info" style="text-align: left">{{ qa.Q }}</b-button>

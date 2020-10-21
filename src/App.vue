@@ -15,6 +15,9 @@
     <b-modal id="model3" size="lg">
       <iframe src="https://timewz667.github.io/AsymTB/Model3.html" frameborder="0"></iframe>
     </b-modal>
+    <b-modal id="data" size="lg">
+      <iframe src="https://timewz667.github.io/AsymTB/DataSource.html" frameborder="0"></iframe>
+    </b-modal>
   </div>
 </template>
 <script>
