@@ -1,10 +1,26 @@
 [
   {
-    "Q": "What was the key contribution of this study?",
-    "A": "This study estimates ..."
+    "Q": "Why is the duration of asymptomatic TB important?",
+    "A": "This is a period that is inaccessible to passive case-finding (and also to symptom-based active screening), but which may still make substantial contributions to onward infection and to deaths from TB."
   },
   {
-    "Q": "Prevalence survey can be regarded as an one-shot massive TB screening, which causes the notification being increased. How did this study deal with the issue?",
-    "A": "We used notification data in multiple time points and considered an annual decline rate in order to prevent the impacts of a single notification data on our results"
+    "Q": "What are the motivations to address asymptomatic TB",
+    "A": "The risk of reactivation after self-curing from asymptomatic TB remains unknown and the infectiousness during the period remains unclear. Thus, an estimate of the asymptomatic TB burden might help addressing the uncertainty in TB policy making."
+  },
+  {
+    "Q": "Why did the study use cross-sectional data?",
+    "A": "For ethical reasons, it is infeasible to follow the asymptomatic TB and observe when they intend to seek care and when they got notified. Also, the retrospective studies by recalling are infeasible, because the period is not noticeable without an active-case finding by definition."
+  },
+  {
+    "Q": "Prevalence surveys can be regarded as a one-shot massive TB screening, which might cause an increase in notifications. How did this study deal with the issue??",
+    "A": "We used notification data in multiple time points and considered an annual decline rate to prevent the impacts of a single notification data on our results."
+  },
+  {
+    "Q":  "How can other researchers apply the models to other data?",
+    "A": "The statistical model will be published on GitHub, allowing any machine can execute stan to run the models. The models only require a prevalence survey and a few timepoints of notification data in either national/subnational scales."
+  },
+  {
+    "Q": "Did this study consider the false positive TB in notification?",
+    "A": "No, we have not evaluated the impacts yet. However, we expected longer durations of every state in the settings with higher rates of false-positive. "
   }
 ]

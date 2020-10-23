@@ -11,7 +11,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Layout,
-    //redirect: { name: "Upcoming" },
+    redirect: "/keys",
     children: [
       {
         path: "keys",
@@ -37,8 +37,8 @@ const routes = [
         path: "country",
         name: "CountryProfiles",
         //redirect: { name: "Upcoming" },
-        //component: () => import("@/views/Country.vue"),
-        component: () => import("@/views/Upcoming.vue")
+        component: () => import("@/views/Country.vue"),
+        //component: () => import("@/views/Upcoming.vue")
       },
       {
         path: "discussion",

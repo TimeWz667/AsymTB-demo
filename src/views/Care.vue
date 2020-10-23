@@ -6,18 +6,18 @@
           <div class="card" style="width: 100%;">
             <div class="card-body">
               <h5 class="card-title">After symptom onset <b-button v-b-modal.model2>Model</b-button></h5>
-              <p class="card-text">Our analysis estimated the time-to</p>
+              <p class="card-text">Our analysis estimated the time to</p>
               <ul class="card-text">
                 <li>the presence of care-seeking intentions</li>
-                <li>case-detection</li>
+                <li>case-detection (notification)</li>
               </ul>
 <!--              <p class="card-text">After considering asymptomatic TB and background deaths, our incidence estimates were higher than WHO estimates</p>-->
-              <p class="card-text">We also consider treatment outcomes after case-detection</p>
+              <p class="card-text">We also consider treatment outcomes after case-detection.</p>
             </div>
             <br>
             <div class="card-body">
               <h5 class="card-title">Data <b-button v-b-modal.data>More</b-button></h5>
-              <p class="card-text">Beyond the previous analysis, we include the care-seeking behaviours if surveyed in their prevalence surveys, and treatment outcomes</p>
+              <p class="card-text">Beyond the previous analysis, we include the care-seeking behaviours if surveyed in their prevalence surveys, and treatment outcomes.</p>
             </div>
           </div>
         </b-col>

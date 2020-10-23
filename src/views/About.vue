@@ -14,11 +14,10 @@
         <b-col cols="5" md="5" style="border-left-style: solid; border-left-color: #b95893;">
           <h2>Information</h2>
           <ul>
-            <li><h5>For further information, please contact <br>Chu-Chang Ku (c.ku@sheffield.ac.uk)</h5></li>
-            <li><h5>Except for Blantyre data, all data were available on public domain</h5></li>
+            <li>For further information, please contact <br>Chu-Chang Ku (c.ku@sheffield.ac.uk)</li>
+            <li>Except for Blantyre data, all data were available on public domain</li>
+            <li>The results were preliminary. There are many adjustments and sensitivity analysis going on.</li>
           </ul>
-
-
         </b-col>
       </b-row>
     </b-container>
