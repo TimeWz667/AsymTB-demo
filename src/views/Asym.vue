@@ -25,7 +25,7 @@
           <vueper-slides :touchable="true" :slide-ratio="1 / 1.4" bullets-outside>
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/asym_sex.png" alt="asym_sex">
+                <img src="https://timewz667.github.io/AsymTB/figs/duration/Asym_All.png" alt="asym_sex">
               </template>
             </vueper-slide>
             <vueper-slide>

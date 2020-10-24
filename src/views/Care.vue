@@ -13,6 +13,7 @@
               </ul>
 <!--              <p class="card-text">After considering asymptomatic TB and background deaths, our incidence estimates were higher than WHO estimates</p>-->
               <p class="card-text">We also consider treatment outcomes after case-detection.</p>
+              <p class="card-text">See more on country profiles.</p>
             </div>
             <br>
             <div class="card-body">
@@ -22,10 +23,10 @@
           </div>
         </b-col>
         <b-col md="7">
-          <vueper-slides :touchable="true" :slide-ratio="1 / 1.4" bullets-outside>
+          <vueper-slides :touchable="true" :slide-ratio="1 / 1.1" bullets-outside>
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/care_TTE.png" alt="asym_TTE">
+                <img src="https://timewz667.github.io/AsymTB/figs/duration/TTE_All.png" alt="asym_TTE" style="padding-top: 10pt">
               </template>
             </vueper-slide>
             <!--<vueper-slide>
@@ -35,27 +36,22 @@
             </vueper-slide>-->
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/care_MWI.png" alt="care_MWI">
+                <img src="https://timewz667.github.io/AsymTB/figs/cascade/Cohort_MWI.png" alt="care_MWI">
               </template>
             </vueper-slide>
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/care_PHL.png" alt="care_PHL">
+                <img src="https://timewz667.github.io/AsymTB/figs/cascade/Cascade_MWI.png" alt="drop_MWI">
               </template>
             </vueper-slide>
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/care_TZA.png" alt="care_TZA">
+                <img src="https://timewz667.github.io/AsymTB/figs/cascade/Cohort_ZMB.png" alt="care_ZMB">
               </template>
             </vueper-slide>
             <vueper-slide>
               <template v-slot:content>
-                <img src="@/assets/care_UGA.png" alt="care_UGA">
-              </template>
-            </vueper-slide>
-            <vueper-slide>
-              <template v-slot:content>
-                <img src="@/assets/care_ZMB.png" alt="care_ZMB">
+                <img src="https://timewz667.github.io/AsymTB/figs/cascade/Cascade_ZMB.png" alt="drop_ZMB">
               </template>
             </vueper-slide>
           </vueper-slides>
@@ -77,7 +73,7 @@ export default {
 
 <style scoped>
 img {
-  padding-top: 20pt;
+  padding-top: 40pt;
   width: 100%;
 }
 
